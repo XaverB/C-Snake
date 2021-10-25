@@ -1,0 +1,7 @@
+Debug
+Release
+x64
+*.suo
+Dockerfile
+*.vcxproj.user
+Browse.VC.*
