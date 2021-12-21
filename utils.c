@@ -42,5 +42,5 @@ bool color_equal(ALLEGRO_COLOR a, ALLEGRO_COLOR b) {
 }
 
 bool is_within(int val, int min, int max) {
-  return min <= val && val <= max;
+    return min <= val && val <= max;
 }

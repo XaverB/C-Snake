@@ -4,8 +4,17 @@
 
 #include <allegro5/allegro5.h>
 
+/*
+* Initializes the game
+*/
 void game_init(void);
+/*
+* Updates the game
+*/
 void game_update(ALLEGRO_TIMER_EVENT event);
+/*
+* Redraws everything
+*/
 void game_redraw(void);
 
 void mouse_move(ALLEGRO_MOUSE_EVENT event);

@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="game.c">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -28,6 +25,15 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="utils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="snake.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="board.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="logger.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -41,5 +47,28 @@
     <ClInclude Include="utils.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="snake.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="exit_codes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="board.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="logger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="game-over.mp3">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="mlem.mp3">
+      <Filter>Resource Files</Filter>
+    </Media>
   </ItemGroup>
 </Project>
